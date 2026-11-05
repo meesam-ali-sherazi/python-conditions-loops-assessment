@@ -1,34 +1,34 @@
-Python Programming Assessment – Conditions & Loops
+**Python Programming Assessment – Conditions & Loops**
 
-Project Overview
+**Project Overview**
 
 This repository contains two Python applications developed as part of the Python Programming Assessment. The projects demonstrate conditional statements, loops, input validation, counters, accumulators, and basic problem-solving through real-world business scenarios.
 
-Repository Information
+**Repository Information**
 
 Repository Name: "python-conditions-loops-assessment"
 
-Programming Language: Python 3
+**Programming Language:** Python 3
 
-Task 1: Student Scholarship Eligibility System
+**Task 1: Student Scholarship Eligibility System**
 
-Description
+**Description**
 
 This application evaluates students' eligibility for university scholarships based on academic marks, attendance percentage, and monthly family income.
 
-Eligibility Criteria
+**Eligibility Criteria**
 
 - Academic marks must be at least 80%.
 - Attendance must be at least 85%.
 - Monthly family income must be Rs. 50,000 or less.
 
-Scholarship Categories
+**Scholarship Categories**
 
 - Full Scholarship: Academic marks of 90% or above, provided all eligibility conditions are satisfied.
 - Partial Scholarship: Academic marks between 80% and 89%, provided all eligibility conditions are satisfied.
 - Not Eligible: If any eligibility condition is not satisfied, the program displays the reasons.
 
-Program Features
+**Program Features**
 
 - Collects student name, marks, attendance, and family income.
 - Validates empty names and invalid numeric inputs.
@@ -38,7 +38,7 @@ Program Features
 - Displays appropriate ineligibility reasons.
 - Generates a complete scholarship evaluation report.
 
-Python Concepts Used
+**Python Concepts Used**
 
 - input() and print()
 - Variables and data types
@@ -49,13 +49,13 @@ Python Concepts Used
 - try and except
 - Input validation
 
-Task 2: Smart Pharmacy Inventory & Sales Management System
+**Task 2: Smart Pharmacy Inventory & Sales Management System**
 
-Description
+**Description**
 
 This application manages medicine inventory and calculates daily pharmacy sales revenue. It processes multiple medicines using loops and calculates the remaining stock after each sale.
 
-Program Features
+**Program Features**
 
 - Accepts the number of medicines to process.
 - Collects medicine name, available stock, price, and quantity sold.
@@ -69,7 +69,7 @@ Program Features
 - Counts medicines requiring restocking.
 - Generates a final pharmacy sales report.
 
-Python Concepts Used
+**Python Concepts Used**
 
 - input() and print()
 - Variables and data types
@@ -83,7 +83,7 @@ Python Concepts Used
 - Accumulators
 - Counters
 
-Project Structure
+**Project Structure**
 
 python-conditions-loops-assessment/
 │
@@ -91,14 +91,14 @@ python-conditions-loops-assessment/
 ├── pharmacy_inventory_system.py
 └── README.md
 
-How to Run the Programs
+**How to Run the Programs**
 
-Requirements
+**Requirements**
 
 - Python 3 installed.
 - Visual Studio Code or another Python code editor.
 
-Run Task 1: Scholarship System
+**Run Task 1: Scholarship System**
 
 Open the project folder in VS Code and execute:
 
@@ -106,9 +106,9 @@ python student_scholarship_system.py
 
 Enter the student's name, academic marks, attendance percentage, and monthly family income.
 
-Run Task 2: Pharmacy Inventory System
+**Run Task 2: Pharmacy Inventory System**
 
-Execute:
+**Execute:**
 
 python pharmacy_inventory_system.py
 
@@ -116,23 +116,23 @@ Enter the number of medicines and provide the required details for each medicine
 
 Sample Execution Details
 
-Task 1: Scholarship System
+**Task 1: Scholarship System**
 
-Sample Input:
+**Sample Input:**
 
 Student Name: Ali
 Academic Marks: 95
 Attendance: 90
 Monthly Family Income: 40000
 
-Expected Result:
+**Expected Result:**
 
 Eligibility Status: Eligible
 Scholarship Awarded: Full Scholarship
 
-Task 2: Pharmacy Inventory System
+**Task 2: Pharmacy Inventory System**
 
-Sample Input:
+**Sample Input:**
 
 Number of Medicines: 3
 
@@ -154,13 +154,13 @@ Stock: 5
 Price: 100
 Quantity Sold: 2
 
-Expected Final Report:
+**Expected Final Report:**
 
 Total Medicines Processed: 3
 Total Pharmacy Revenue: Rs. 480
 Medicines Requiring Restocking: 2
 
-Testing
+**Testing**
 
 Both applications were tested with multiple input scenarios, including:
 
@@ -172,7 +172,7 @@ Both applications were tested with multiple input scenarios, including:
 - Low-stock warning.
 - Revenue and restocking calculations.
 
-Learning Outcomes
+**Learning Outcomes**
 
 After completing these projects, the student can:
 
@@ -184,8 +184,8 @@ After completing these projects, the student can:
 - Generate meaningful reports.
 - Organize and document Python projects using GitHub.
 
-Author
+**Author**
 
 Python Programming Assessment – Conditions & Loops
 
-Status: Completed
+**Status: Completed**
